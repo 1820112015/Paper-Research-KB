@@ -22,6 +22,7 @@ from urllib.parse import quote
 
 SOURCE_URL = "https://zhipu-ai.feishu.cn/wiki/UgnNwpUOniODVBkwdpIcev7EnDc"
 INTERNAL_FEISHU_URL = "internal-api-drive-stream.feishu.cn"
+MANIFEST_NAME = ".paper-research-manifest.json"
 
 
 @dataclass
@@ -228,7 +229,8 @@ def build_readme(entries: list[Research], revision: str, paths: dict[int, Path])
         f"- 在线文档：[飞书知识库原文]({SOURCE_URL})",
         f"- 最近同步：2026-07-17（飞书修订版 {revision}）",
         f"- 条目总数：{len(entries)}",
-        "- 目录结构：`月份 / 分类 / 收录日期 - 研究名称.md`",
+        "- 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`",
+        "- 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方",
         "",
         "## 内容统计",
         "",
@@ -255,23 +257,70 @@ def build_readme(entries: list[Research], revision: str, paths: dict[int, Path])
     return "\n".join(lines).rstrip() + "\n"
 
 
+def clean_previous_export(repo_root: Path) -> None:
+    manifest_path = repo_root / MANIFEST_NAME
+    if not manifest_path.is_file():
+        return
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    for relative_name in manifest.get("files", []):
+        relative = Path(relative_name)
+        if relative.is_absolute() or ".." in relative.parts or relative.suffix.lower() != ".md":
+            raise ValueError(f"同步清单中存在不安全路径：{relative_name}")
+        target = repo_root / relative
+        if target.is_file():
+            target.unlink()
+        parent = target.parent
+        while parent != repo_root:
+            try:
+                parent.rmdir()
+            except OSError:
+                break
+            parent = parent.parent
+
+
 def export(entries: list[Research], repo_root: Path, revision: str) -> dict[str, int]:
+    clean_previous_export(repo_root)
     paths: dict[int, Path] = {}
     seen_paths: set[str] = set()
+    category_ranks: Counter[tuple[str, str]] = Counter()
+    month_ranks: dict[str, int] = {}
     for entry in entries:
-        folder = Path(month_folder(entry.month)) / safe_component(entry.category)
-        filename = safe_component(f"{entry.date or '日期未知'} - {entry.title}", is_file=True) + ".md"
+        month_ranks.setdefault(entry.month, len(month_ranks) + 1)
+    for entry in entries:
+        folder = Path(f"{month_ranks[entry.month]:03d} - {month_folder(entry.month)}") / safe_component(entry.category)
+        category_ranks[(entry.month, entry.category)] += 1
+        rank = category_ranks[(entry.month, entry.category)]
+        filename = safe_component(
+            f"{rank:03d} - {entry.date or '日期未知'} - {entry.title}", is_file=True
+        ) + ".md"
         relative = folder / filename
         collision_key = normalize(relative.as_posix())
         if collision_key in seen_paths:
             raise ValueError(f"生成路径冲突：{relative}")
         seen_paths.add(collision_key)
         target = repo_root / relative
+        legacy_name = safe_component(f"{entry.date or '日期未知'} - {entry.title}", is_file=True) + ".md"
+        legacy_target = repo_root / month_folder(entry.month) / safe_component(entry.category) / legacy_name
+        if legacy_target.is_file() and not target.exists():
+            legacy_target.rename(target)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(entry_markdown(entry), encoding="utf-8")
         paths[id(entry)] = relative
 
     (repo_root / "README.md").write_text(build_readme(entries, revision, paths), encoding="utf-8")
+    (repo_root / MANIFEST_NAME).write_text(
+        json.dumps(
+            {
+                "source": SOURCE_URL,
+                "revision": revision,
+                "files": [paths[id(entry)].as_posix() for entry in entries],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     return {
         "entries": len(entries),
         "pdf_links": sum(bool(entry.pdf) for entry in entries),
