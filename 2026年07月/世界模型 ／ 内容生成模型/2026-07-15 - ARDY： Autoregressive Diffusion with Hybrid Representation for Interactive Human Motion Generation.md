@@ -1,6 +1,7 @@
 # ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
 
-**收录日期：** 2026-07-15  
+**收录日期：** 2026-07-15
+
 **分类：** 世界模型 / 内容生成模型
 
 ## 摘要

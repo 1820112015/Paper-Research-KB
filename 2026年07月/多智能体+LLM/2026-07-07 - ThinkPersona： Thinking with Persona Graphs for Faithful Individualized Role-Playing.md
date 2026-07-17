@@ -1,6 +1,7 @@
 # ThinkPersona: Thinking with Persona Graphs for Faithful Individualized Role-Playing
 
-**收录日期：** 2026-07-07  
+**收录日期：** 2026-07-07
+
 **分类：** 多智能体+LLM
 
 ## 摘要

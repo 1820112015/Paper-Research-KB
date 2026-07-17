@@ -1,6 +1,7 @@
 # The AI-mediated gamification of affective labor: The reconfiguration of participatory fan production in human–community–machine interactions
 
-**收录日期：** 2026-06-29  
+**收录日期：** 2026-06-29
+
 **分类：** 理论与标准研究
 
 ## 摘要

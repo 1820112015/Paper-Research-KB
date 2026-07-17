@@ -1,6 +1,7 @@
 # OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators
 
-**收录日期：** 2026-07-11  
+**收录日期：** 2026-07-11
+
 **分类：** 世界模型 / 内容生成模型
 
 ## 摘要

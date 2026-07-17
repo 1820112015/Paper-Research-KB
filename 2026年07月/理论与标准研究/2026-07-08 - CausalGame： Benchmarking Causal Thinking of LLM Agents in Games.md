@@ -1,6 +1,7 @@
 # CausalGame: Benchmarking Causal Thinking of LLM Agents in Games
 
-**收录日期：** 2026-07-08  
+**收录日期：** 2026-07-08
+
 **分类：** 理论与标准研究
 
 ## 摘要

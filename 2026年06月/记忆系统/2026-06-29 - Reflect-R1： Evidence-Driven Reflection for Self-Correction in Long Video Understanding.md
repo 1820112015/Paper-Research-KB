@@ -1,6 +1,7 @@
 # Reflect-R1: Evidence-Driven Reflection for Self-Correction in Long Video Understanding
 
-**收录日期：** 2026-06-29  
+**收录日期：** 2026-06-29
+
 **分类：** 记忆系统
 
 ## 摘要

@@ -1,6 +1,7 @@
 # CoffeeBench: Benchmarking Long-Horizon LLM Agents in Heterogeneous Multi-Agent Economies
 
-**收录日期：** 2026-06-27  
+**收录日期：** 2026-06-27
+
 **分类：** 多智能体+LLM
 
 ## 摘要

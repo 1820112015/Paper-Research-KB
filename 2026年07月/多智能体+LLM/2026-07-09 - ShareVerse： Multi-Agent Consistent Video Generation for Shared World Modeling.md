@@ -1,6 +1,7 @@
 # ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling
 
-**收录日期：** 2026-07-09  
+**收录日期：** 2026-07-09
+
 **分类：** 多智能体+LLM
 
 ## 摘要

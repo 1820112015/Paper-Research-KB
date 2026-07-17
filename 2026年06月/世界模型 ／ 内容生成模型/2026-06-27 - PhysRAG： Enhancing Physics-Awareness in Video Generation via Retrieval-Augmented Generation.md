@@ -1,6 +1,7 @@
 # PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation
 
-**收录日期：** 2026-06-27  
+**收录日期：** 2026-06-27
+
 **分类：** 世界模型 / 内容生成模型
 
 ## 摘要

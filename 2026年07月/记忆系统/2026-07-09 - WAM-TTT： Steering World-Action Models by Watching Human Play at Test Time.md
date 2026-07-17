@@ -1,6 +1,7 @@
 # WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
 
-**收录日期：** 2026-07-09  
+**收录日期：** 2026-07-09
+
 **分类：** 记忆系统
 
 ## 摘要

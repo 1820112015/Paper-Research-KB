@@ -1,6 +1,7 @@
 # From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI
 
-**收录日期：** 2026-06-25  
+**收录日期：** 2026-06-25
+
 **分类：** 实践项目
 
 ## 摘要

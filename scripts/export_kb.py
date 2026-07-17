@@ -190,7 +190,8 @@ def entry_markdown(entry: Research) -> str:
         [
             f"# {entry.title}",
             "",
-            f"**收录日期：** {entry.date or '暂无'}  ",
+            f"**收录日期：** {entry.date or '暂无'}",
+            "",
             f"**分类：** {entry.category}",
             "",
             "## 摘要",

@@ -1,6 +1,7 @@
 # Opinion Polarization in LLM-Based Social Networks: Manipulation and Mitigation
 
-**收录日期：** 2026-06-23  
+**收录日期：** 2026-06-23
+
 **分类：** 多智能体+LLM
 
 ## 摘要

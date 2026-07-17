@@ -1,6 +1,7 @@
 # Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents
 
-**收录日期：** 2026-06-23  
+**收录日期：** 2026-06-23
+
 **分类：** 记忆系统
 
 ## 摘要

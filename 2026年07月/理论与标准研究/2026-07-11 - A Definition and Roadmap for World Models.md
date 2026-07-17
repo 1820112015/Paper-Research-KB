@@ -1,6 +1,7 @@
 # A Definition and Roadmap for World Models
 
-**收录日期：** 2026-07-11  
+**收录日期：** 2026-07-11
+
 **分类：** 理论与标准研究
 
 ## 摘要

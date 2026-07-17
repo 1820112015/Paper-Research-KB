@@ -1,6 +1,7 @@
 # A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models
 
-**收录日期：** 2026-07-07  
+**收录日期：** 2026-07-07
+
 **分类：** 理论与标准研究
 
 ## 摘要

@@ -1,6 +1,7 @@
 # Reinforcement Learning Towards Broadly and Persistently Beneficial Models
 
-**收录日期：** 2026-06-23  
+**收录日期：** 2026-06-23
+
 **分类：** 理论与标准研究
 
 ## 摘要

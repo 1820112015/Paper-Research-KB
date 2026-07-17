@@ -1,6 +1,7 @@
 # MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models
 
-**收录日期：** 2026-07-16  
+**收录日期：** 2026-07-16
+
 **分类：** 世界模型 / 内容生成模型
 
 ## 摘要

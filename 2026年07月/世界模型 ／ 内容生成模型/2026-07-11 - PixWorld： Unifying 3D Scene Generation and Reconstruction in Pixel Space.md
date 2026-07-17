@@ -1,6 +1,7 @@
 # PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space
 
-**收录日期：** 2026-07-11  
+**收录日期：** 2026-07-11
+
 **分类：** 世界模型 / 内容生成模型
 
 ## 摘要

@@ -1,6 +1,7 @@
 # Six reasons to study emotional support from conversational artificial intelligence
 
-**收录日期：** 2026-07-03  
+**收录日期：** 2026-07-03
+
 **分类：** 理论与标准研究
 
 ## 摘要

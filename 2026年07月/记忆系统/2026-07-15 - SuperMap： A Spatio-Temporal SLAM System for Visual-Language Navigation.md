@@ -1,6 +1,7 @@
 # SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation
 
-**收录日期：** 2026-07-15  
+**收录日期：** 2026-07-15
+
 **分类：** 记忆系统
 
 ## 摘要

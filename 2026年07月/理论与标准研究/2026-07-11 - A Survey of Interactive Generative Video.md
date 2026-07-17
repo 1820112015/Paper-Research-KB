@@ -1,6 +1,7 @@
 # A Survey of Interactive Generative Video
 
-**收录日期：** 2026-07-11  
+**收录日期：** 2026-07-11
+
 **分类：** 理论与标准研究
 
 ## 摘要

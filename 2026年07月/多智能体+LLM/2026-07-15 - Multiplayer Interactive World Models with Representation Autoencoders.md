@@ -1,6 +1,7 @@
 # Multiplayer Interactive World Models with Representation Autoencoders
 
-**收录日期：** 2026-07-15  
+**收录日期：** 2026-07-15
+
 **分类：** 多智能体+LLM
 
 ## 摘要

@@ -1,6 +1,7 @@
 # Agentopia: Long-Term Life Simulation and Learning in Agent Societies
 
-**收录日期：** 2026-06-24  
+**收录日期：** 2026-06-24
+
 **分类：** 多智能体+LLM
 
 ## 摘要

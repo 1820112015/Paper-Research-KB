@@ -1,6 +1,7 @@
 # JoyAI-VL-Interaction: An Open Real-time Video-Language Interaction Model
 
-**收录日期：** 2026-06-24  
+**收录日期：** 2026-06-24
+
 **分类：** 实践项目
 
 ## 摘要

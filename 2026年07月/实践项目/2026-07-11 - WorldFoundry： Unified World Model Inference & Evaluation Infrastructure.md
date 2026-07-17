@@ -1,6 +1,7 @@
 # WorldFoundry: Unified World Model Inference & Evaluation Infrastructure
 
-**收录日期：** 2026-07-11  
+**收录日期：** 2026-07-11
+
 **分类：** 实践项目
 
 ## 摘要

@@ -1,6 +1,7 @@
 # EduMirror: Modeling Educational Social Dynamics with Value-driven Multi-agent Simulation
 
-**收录日期：** 2026-07-07  
+**收录日期：** 2026-07-07
+
 **分类：** 多智能体+LLM
 
 ## 摘要

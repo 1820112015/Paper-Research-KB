@@ -1,6 +1,7 @@
 # WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models
 
-**收录日期：** 2026-07-01  
+**收录日期：** 2026-07-01
+
 **分类：** 理论与标准研究
 
 ## 摘要

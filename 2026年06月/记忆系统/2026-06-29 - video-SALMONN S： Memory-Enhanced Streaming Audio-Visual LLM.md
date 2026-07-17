@@ -1,6 +1,7 @@
 # video-SALMONN S: Memory-Enhanced Streaming Audio-Visual LLM
 
-**收录日期：** 2026-06-29  
+**收录日期：** 2026-06-29
+
 **分类：** 记忆系统
 
 ## 摘要

@@ -1,6 +1,7 @@
 # Can Agents Read the Room? Benchmarking Visual Social Intelligence in Multimodal Simulation
 
-**收录日期：** 2026-06-24  
+**收录日期：** 2026-06-24
+
 **分类：** 多智能体+LLM
 
 ## 摘要

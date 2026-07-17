@@ -1,6 +1,7 @@
 # WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG
 
-**收录日期：** 2026-07-09  
+**收录日期：** 2026-07-09
+
 **分类：** 理论与标准研究
 
 ## 摘要

@@ -1,6 +1,7 @@
 # Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents
 
-**收录日期：** 2026-06-26  
+**收录日期：** 2026-06-26
+
 **分类：** 记忆系统
 
 ## 摘要

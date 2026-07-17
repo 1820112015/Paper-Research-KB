@@ -1,6 +1,7 @@
 # ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?
 
-**收录日期：** 2026-06-29  
+**收录日期：** 2026-06-29
+
 **分类：** 世界模型
 
 ## 摘要

@@ -1,6 +1,7 @@
 # GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?
 
-**收录日期：** 2026-06-25  
+**收录日期：** 2026-06-25
+
 **分类：** 理论与标准研究
 
 ## 摘要
