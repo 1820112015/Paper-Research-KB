@@ -2,8 +2,8 @@
 
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
-- 最近同步：2026-07-17（飞书修订版 384）
-- 条目总数：49
+- 最近同步：2026-07-20（飞书修订版 401）
+- 条目总数：55
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -11,11 +11,11 @@
 
 | 月份 | 分类 | 条目数 |
 | --- | --- | ---: |
-| 2026年7月 | 世界模型 / 内容生成模型 | 15 |
+| 2026年7月 | 世界模型 / 内容生成模型 | 17 |
 | 2026年7月 | 多智能体+LLM | 4 |
-| 2026年7月 | 记忆系统 | 2 |
+| 2026年7月 | 记忆系统 | 3 |
 | 2026年7月 | 实践项目 | 3 |
-| 2026年7月 | 理论与标准研究 | 7 |
+| 2026年7月 | 理论与标准研究 | 10 |
 | 2026年6月 | 世界模型 | 1 |
 | 2026年6月 | 世界模型 / 内容生成模型 | 2 |
 | 2026年6月 | 记忆系统 | 5 |
@@ -29,21 +29,23 @@
 
 #### 世界模型 / 内容生成模型
 
-- 2026-07-16 · [MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-07-16%20-%20MAGIC%EF%BC%9A%20Transition-Aware%20Generation%20of%20Navigable%20Multi-Scene%20Game%20Worlds%20with%20Large%20Language%20Models.md)
-- 2026-07-15 · [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-07-15%20-%20ARDY%EF%BC%9A%20Autoregressive%20Diffusion%20with%20Hybrid%20Representation%20for%20Interactive%20Human%20Motion%20Generation.md)
-- 2026-07-14 · [ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/003%20-%202026-07-14%20-%20ABot-3DWorld%200%EF%BC%9A%20A%20Universal%20World%20Model%20to%20Explore%20Any%203D%20Space.md)
-- 2026-07-11 · [WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/004%20-%202026-07-11%20-%20WorldDirector%EF%BC%9A%20Building%20Controllable%20World%20Simulators%20with%20Persistent%20Dynamic%20Memory.md)
-- 2026-07-11 · [PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/005%20-%202026-07-11%20-%20PixWorld%EF%BC%9A%20Unifying%203D%20Scene%20Generation%20and%20Reconstruction%20in%20Pixel%20Space.md)
-- 2026-07-11 · [OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/006%20-%202026-07-11%20-%20OPSD-V%EF%BC%9A%20On-Policy%20Self-Distillation%20for%20Post-Training%20Few-Step%20Autoregressive%20Video%20Generators.md)
-- 2026-07-11 · [LiveEdit: Towards Real-Time Diffusion-Based Streaming Video Editing](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/007%20-%202026-07-11%20-%20LiveEdit%EF%BC%9A%20Towards%20Real-Time%20Diffusion-Based%20Streaming%20Video%20Editing.md)
-- 2026-07-10 · [Helios: Real Real-Time Long Video Generation Model](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/008%20-%202026-07-10%20-%20Helios%EF%BC%9A%20Real%20Real-Time%20Long%20Video%20Generation%20Model.md)
-- 2026-07-10 · [AlayaWorld: Long-Horizon and Playable Video World Generation](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/009%20-%202026-07-10%20-%20AlayaWorld%EF%BC%9A%20Long-Horizon%20and%20Playable%20Video%20World%20Generation.md)
-- 2026-07-09 · [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/010%20-%202026-07-09%20-%20Scaling%20Mixture-of-Experts%20Video%20Pretraining%20for%20Embodied%20Intelligence.md)
-- 2026-07-09 · [Infinite Worlds with Versatile Interactions](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/011%20-%202026-07-09%20-%20Infinite%20Worlds%20with%20Versatile%20Interactions.md)
-- 2026-07-01 · [Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/012%20-%202026-07-01%20-%20Matrix-Game%203.0%EF%BC%9A%20Real-Time%20and%20Streaming%20Interactive%20World%20Model%20with%20Long-Horizon%20Memory.md)
-- 2026-07-01 · [HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/013%20-%202026-07-01%20-%20HY-World%202.0%EF%BC%9A%20A%20Multi-Modal%20World%20Model%20for%20Reconstructing%2C%20Generating%2C%20and%20Simulating%203D%20Worlds.md)
-- 2026-07-01 · [HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/014%20-%202026-07-01%20-%20HY-World%201.5%EF%BC%9A%20A%20Systematic%20Framework%20for%20Interactive%20World%20Modeling%20with%20Real-Time%20Latency%20and%20Geometric%20Consistency.md)
-- 2026-07-01 · [DreamX-World 1.0: A General-Purpose Interactive World Model](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/015%20-%202026-07-01%20-%20DreamX-World%201.0%EF%BC%9A%20A%20General-Purpose%20Interactive%20World%20Model.md)
+- 2026-07-19 · [Motion4Motion: Motion Transfer Across Subjects at Inference](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-07-19%20-%20Motion4Motion%EF%BC%9A%20Motion%20Transfer%20Across%20Subjects%20at%20Inference.md)
+- 2026-07-18 · [Video Generation Models are General-Purpose Vision Learners](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-07-18%20-%20Video%20Generation%20Models%20are%20General-Purpose%20Vision%20Learners.md)
+- 2026-07-16 · [MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/003%20-%202026-07-16%20-%20MAGIC%EF%BC%9A%20Transition-Aware%20Generation%20of%20Navigable%20Multi-Scene%20Game%20Worlds%20with%20Large%20Language%20Models.md)
+- 2026-07-15 · [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/004%20-%202026-07-15%20-%20ARDY%EF%BC%9A%20Autoregressive%20Diffusion%20with%20Hybrid%20Representation%20for%20Interactive%20Human%20Motion%20Generation.md)
+- 2026-07-14 · [ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/005%20-%202026-07-14%20-%20ABot-3DWorld%200%EF%BC%9A%20A%20Universal%20World%20Model%20to%20Explore%20Any%203D%20Space.md)
+- 2026-07-11 · [WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/006%20-%202026-07-11%20-%20WorldDirector%EF%BC%9A%20Building%20Controllable%20World%20Simulators%20with%20Persistent%20Dynamic%20Memory.md)
+- 2026-07-11 · [PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/007%20-%202026-07-11%20-%20PixWorld%EF%BC%9A%20Unifying%203D%20Scene%20Generation%20and%20Reconstruction%20in%20Pixel%20Space.md)
+- 2026-07-11 · [OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/008%20-%202026-07-11%20-%20OPSD-V%EF%BC%9A%20On-Policy%20Self-Distillation%20for%20Post-Training%20Few-Step%20Autoregressive%20Video%20Generators.md)
+- 2026-07-11 · [LiveEdit: Towards Real-Time Diffusion-Based Streaming Video Editing](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/009%20-%202026-07-11%20-%20LiveEdit%EF%BC%9A%20Towards%20Real-Time%20Diffusion-Based%20Streaming%20Video%20Editing.md)
+- 2026-07-10 · [Helios: Real Real-Time Long Video Generation Model](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/010%20-%202026-07-10%20-%20Helios%EF%BC%9A%20Real%20Real-Time%20Long%20Video%20Generation%20Model.md)
+- 2026-07-10 · [AlayaWorld: Long-Horizon and Playable Video World Generation](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/011%20-%202026-07-10%20-%20AlayaWorld%EF%BC%9A%20Long-Horizon%20and%20Playable%20Video%20World%20Generation.md)
+- 2026-07-09 · [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/012%20-%202026-07-09%20-%20Scaling%20Mixture-of-Experts%20Video%20Pretraining%20for%20Embodied%20Intelligence.md)
+- 2026-07-09 · [Infinite Worlds with Versatile Interactions](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/013%20-%202026-07-09%20-%20Infinite%20Worlds%20with%20Versatile%20Interactions.md)
+- 2026-07-01 · [Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/014%20-%202026-07-01%20-%20Matrix-Game%203.0%EF%BC%9A%20Real-Time%20and%20Streaming%20Interactive%20World%20Model%20with%20Long-Horizon%20Memory.md)
+- 2026-07-01 · [HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/015%20-%202026-07-01%20-%20HY-World%202.0%EF%BC%9A%20A%20Multi-Modal%20World%20Model%20for%20Reconstructing%2C%20Generating%2C%20and%20Simulating%203D%20Worlds.md)
+- 2026-07-01 · [HY-World 1.5: A Systematic Framework for Interactive World Modeling with Real-Time Latency and Geometric Consistency](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/016%20-%202026-07-01%20-%20HY-World%201.5%EF%BC%9A%20A%20Systematic%20Framework%20for%20Interactive%20World%20Modeling%20with%20Real-Time%20Latency%20and%20Geometric%20Consistency.md)
+- 2026-07-01 · [DreamX-World 1.0: A General-Purpose Interactive World Model](001%20-%202026%E5%B9%B407%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/017%20-%202026-07-01%20-%20DreamX-World%201.0%EF%BC%9A%20A%20General-Purpose%20Interactive%20World%20Model.md)
 
 #### 多智能体+LLM
 
@@ -54,8 +56,9 @@
 
 #### 记忆系统
 
-- 2026-07-15 · [SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation](001%20-%202026%E5%B9%B407%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/001%20-%202026-07-15%20-%20SuperMap%EF%BC%9A%20A%20Spatio-Temporal%20SLAM%20System%20for%20Visual-Language%20Navigation.md)
-- 2026-07-09 · [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](001%20-%202026%E5%B9%B407%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/002%20-%202026-07-09%20-%20WAM-TTT%EF%BC%9A%20Steering%20World-Action%20Models%20by%20Watching%20Human%20Play%20at%20Test%20Time.md)
+- 2026-07-19 · [Online Neural Space Time Memory for Dynamic Novel View Synthesis](001%20-%202026%E5%B9%B407%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/001%20-%202026-07-19%20-%20Online%20Neural%20Space%20Time%20Memory%20for%20Dynamic%20Novel%20View%20Synthesis.md)
+- 2026-07-15 · [SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation](001%20-%202026%E5%B9%B407%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/002%20-%202026-07-15%20-%20SuperMap%EF%BC%9A%20A%20Spatio-Temporal%20SLAM%20System%20for%20Visual-Language%20Navigation.md)
+- 2026-07-09 · [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](001%20-%202026%E5%B9%B407%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/003%20-%202026-07-09%20-%20WAM-TTT%EF%BC%9A%20Steering%20World-Action%20Models%20by%20Watching%20Human%20Play%20at%20Test%20Time.md)
 
 #### 实践项目
 
@@ -65,13 +68,16 @@
 
 #### 理论与标准研究
 
-- 2026-07-11 · [A Survey of Interactive Generative Video](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-07-11%20-%20A%20Survey%20of%20Interactive%20Generative%20Video.md)
-- 2026-07-11 · [A Definition and Roadmap for World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-07-11%20-%20A%20Definition%20and%20Roadmap%20for%20World%20Models.md)
-- 2026-07-09 · [WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/003%20-%202026-07-09%20-%20WildWorld%EF%BC%9A%20A%20Large-Scale%20Dataset%20for%20Dynamic%20World%20Modeling%20with%20Actions%20and%20Explicit%20State%20toward%20Generative%20ARPG.md)
-- 2026-07-08 · [CausalGame: Benchmarking Causal Thinking of LLM Agents in Games](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/004%20-%202026-07-08%20-%20CausalGame%EF%BC%9A%20Benchmarking%20Causal%20Thinking%20of%20LLM%20Agents%20in%20Games.md)
-- 2026-07-07 · [A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/005%20-%202026-07-07%20-%20A%20Physics-Grounded%20Benchmark%20for%20Multi-Agent%20Dynamics%20in%20World%20Models.md)
-- 2026-07-03 · [Six reasons to study emotional support from conversational artificial intelligence](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/006%20-%202026-07-03%20-%20Six%20reasons%20to%20study%20emotional%20support%20from%20conversational%20artificial%20intelligence.md)
-- 2026-07-01 · [WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/007%20-%202026-07-01%20-%20WorldRoamBench%EF%BC%9A%20An%20Open-World%20Benchmark%20for%20Long-Horizon%20Stability%20of%20Interactive%20World%20Models.md)
+- 2026-07-20 · [From Pixels to States: Rethinking Interactive World Models as Game Engines](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-07-20%20-%20From%20Pixels%20to%20States%EF%BC%9A%20Rethinking%20Interactive%20World%20Models%20as%20Game%20Engines.md)
+- 2026-07-17 · [GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-07-17%20-%20GigaWorld-1%EF%BC%9A%20A%20Roadmap%20to%20Build%20World%20Models%20for%20Robot%20Policy%20Evaluation.md)
+- 2026-07-17 · [Towards Long-Horizon Agents: A Survey](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/003%20-%202026-07-17%20-%20Towards%20Long-Horizon%20Agents%EF%BC%9A%20A%20Survey.md)
+- 2026-07-11 · [A Survey of Interactive Generative Video](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/004%20-%202026-07-11%20-%20A%20Survey%20of%20Interactive%20Generative%20Video.md)
+- 2026-07-11 · [A Definition and Roadmap for World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/005%20-%202026-07-11%20-%20A%20Definition%20and%20Roadmap%20for%20World%20Models.md)
+- 2026-07-09 · [WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/006%20-%202026-07-09%20-%20WildWorld%EF%BC%9A%20A%20Large-Scale%20Dataset%20for%20Dynamic%20World%20Modeling%20with%20Actions%20and%20Explicit%20State%20toward%20Generative%20ARPG.md)
+- 2026-07-08 · [CausalGame: Benchmarking Causal Thinking of LLM Agents in Games](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/007%20-%202026-07-08%20-%20CausalGame%EF%BC%9A%20Benchmarking%20Causal%20Thinking%20of%20LLM%20Agents%20in%20Games.md)
+- 2026-07-07 · [A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/008%20-%202026-07-07%20-%20A%20Physics-Grounded%20Benchmark%20for%20Multi-Agent%20Dynamics%20in%20World%20Models.md)
+- 2026-07-03 · [Six reasons to study emotional support from conversational artificial intelligence](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/009%20-%202026-07-03%20-%20Six%20reasons%20to%20study%20emotional%20support%20from%20conversational%20artificial%20intelligence.md)
+- 2026-07-01 · [WorldRoamBench: An Open-World Benchmark for Long-Horizon Stability of Interactive World Models](001%20-%202026%E5%B9%B407%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/010%20-%202026-07-01%20-%20WorldRoamBench%EF%BC%9A%20An%20Open-World%20Benchmark%20for%20Long-Horizon%20Stability%20of%20Interactive%20World%20Models.md)
 
 ### 2026年6月
 
