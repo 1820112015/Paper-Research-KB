@@ -2,8 +2,8 @@
 
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
-- 最近同步：2026-09-01（飞书修订版 550）
-- 条目总数：94
+- 最近同步：2026-09-16（bananalab 知识库 rev 33）
+- 条目总数：103
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -11,7 +11,10 @@
 
 | 月份 | 分类 | 条目数 |
 | --- | --- | ---: |
-| 2026年9月 | 世界模型 / 内容生成模型 | 1 |
+| 2026年9月 | 世界模型 / 内容生成模型 | 5 |
+| 2026年9月 | 多智能体+LLM | 3 |
+| 2026年9月 | 实践项目 | 1 |
+| 2026年9月 | 理论与标准研究 | 1 |
 | 2026年8月 | 世界模型 / 内容生成模型 | 13 |
 | 2026年8月 | 多智能体+LLM | 3 |
 | 2026年8月 | 记忆系统 | 1 |
@@ -36,7 +39,25 @@
 
 #### 世界模型 / 内容生成模型
 
-- 2026-09-01 · [4DStreamCtrl: Interactive Video Generation with Online 4D Control](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-09-01%20-%204DStreamCtrl%EF%BC%9A%20Interactive%20Video%20Generation%20with%20Online%204D%20Control.md)
+- 2026-09-11 · [World in World: Explore the World with World Models](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-09-11%20-%20World%20in%20World%EF%BC%9A%20Explore%20the%20World%20with%20World%20Models.md)
+- 2026-09-05 · [SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-09-05%20-%20SolarWM%EF%BC%9A%20Open%20Data%20and%20Scalable%20Training%20for%20Long-Horizon%20Video%20World%20Models.md)
+- 2026-09-03 · [WorldClaw: Agentic 3D Open-World Generation at Scale](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/003%20-%202026-09-03%20-%20WorldClaw%EF%BC%9A%20Agentic%203D%20Open-World%20Generation%20at%20Scale.md)
+- 2026-09-03 · [H3-World: Turning Language Understanding into World Control](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/004%20-%202026-09-03%20-%20H3-World%EF%BC%9A%20Turning%20Language%20Understanding%20into%20World%20Control.md)
+- 2026-09-01 · [4DStreamCtrl: Interactive Video Generation with Online 4D Control](001%20-%202026%E5%B9%B409%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/005%20-%202026-09-01%20-%204DStreamCtrl%EF%BC%9A%20Interactive%20Video%20Generation%20with%20Online%204D%20Control.md)
+
+#### 多智能体+LLM
+
+- 2026-09-12 · [PRISM: A Personality-Driven Multi-Agent Framework for Social Media Simulation](001%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/001%20-%202026-09-12%20-%20PRISM%EF%BC%9A%20A%20Personality-Driven%20Multi-Agent%20Framework%20for%20Social%20Media%20Simulation.md)
+- 2026-09-04 · [Population-Scalable Multi-Agent World Modeling（Khora）](001%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/002%20-%202026-09-04%20-%20Population-Scalable%20Multi-Agent%20World%20Modeling%EF%BC%88Khora%EF%BC%89.md)
+- 2026-09-02 · [Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement](001%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/003%20-%202026-09-02%20-%20Harness-of-Harness%EF%BC%9A%20Multi-Day%20Autonomous%20Software%20Development%20with%20Continual%20Improvement.md)
+
+#### 实践项目
+
+- 2026-09-11 · [Project Gear（Alaya Lab）](001%20-%202026%E5%B9%B409%E6%9C%88/%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE/001%20-%202026-09-11%20-%20Project%20Gear%EF%BC%88Alaya%20Lab%EF%BC%89.md)
+
+#### 理论与标准研究
+
+- 2026-09-10 · [R2M-Bench: Evaluating Revisit Memory via Relative Consistency in Interactive Video World Models](001%20-%202026%E5%B9%B409%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-09-10%20-%20R2M-Bench%EF%BC%9A%20Evaluating%20Revisit%20Memory%20via%20Relative%20Consistency%20in%20Interactive%20Video%20World%20Models.md)
 
 ### 2026年8月
 
