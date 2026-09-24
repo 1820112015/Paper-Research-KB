@@ -16,5 +16,3 @@
 - **Project：** [项目主页](https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/)
 - **Code：** [代码仓库](https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw)
 - **Demo：** 暂无
-
-**评测备注：** 已完成评测准备工作并实际尝试评测该模型，但因官网对参考图检测严格（不能包含人物、不能出现人脸），不符合其输入限制导致评测未能完成——系输入条件受限所致，并非未进行测试。
