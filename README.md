@@ -2,8 +2,8 @@
 
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
-- 最近同步：2026-10-10（bananalab 知识库）
-- 条目总数：109
+- 最近同步：2026-10-10（bananalab 知识库 rev 65，全量 114 条）
+- 条目总数：114
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -12,8 +12,10 @@
 | 月份 | 分类 | 条目数 |
 | --- | --- | ---: |
 | 2026年10月 | 世界模型 / 内容生成模型 | 2 |
+| 2026年10月 | 记忆系统 | 1 |
+| 2026年10月 | 理论与标准研究 | 2 |
 | 2026年9月 | 世界模型 / 内容生成模型 | 6 |
-| 2026年9月 | 多智能体+LLM | 5 |
+| 2026年9月 | 多智能体+LLM | 7 |
 | 2026年9月 | 记忆系统 | 1 |
 | 2026年9月 | 实践项目 | 1 |
 | 2026年9月 | 理论与标准研究 | 1 |
@@ -44,6 +46,15 @@
 - 2026-10-10 · [LongLive-Plug: Once-for-All Distillation for Video Generation](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-10-10%20-%20LongLive-Plug%EF%BC%9A%20Once-for-All%20Distillation%20for%20Video%20Generation.md)
 - 2026-10-10 · [Light Interaction: Training-Free Inference Acceleration for Interactive Video World Models](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-10-10%20-%20Light%20Interaction%EF%BC%9A%20Training-Free%20Inference%20Acceleration%20for%20Interactive%20Video%20World%20Models.md)
 
+#### 记忆系统
+
+- 2026-10-09 · [Learning to Retrieve: Internalizing Memory Retrieval for Video World Models（L2R）](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/001%20-%202026-10-09%20-%20Learning%20to%20Retrieve%EF%BC%9A%20Internalizing%20Memory%20Retrieval%20for%20Video%20World%20Models%EF%BC%88L2R%EF%BC%89.md)
+
+#### 理论与标准研究
+
+- 2026-10-10 · [Large Language Models and Games: A Survey and Roadmap](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-10-10%20-%20Large%20Language%20Models%20and%20Games%EF%BC%9A%20A%20Survey%20and%20Roadmap.md)
+- 2026-10-09 · [Proactive AI for Superintelligent Agents](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-10-09%20-%20Proactive%20AI%20for%20Superintelligent%20Agents.md)
+
 ### 2026年9月
 
 
@@ -58,11 +69,13 @@
 
 #### 多智能体+LLM
 
-- 2026-09-29 · [AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/001%20-%202026-09-29%20-%20AgentWorld%EF%BC%9A%20Benchmarking%20Long-Horizon%20Collaboration%20of%20Multi-agent%20LLMs.md)
-- 2026-09-19 · [Emergence World：多智能体社会模拟中的欺骗与串通（Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems）](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/002%20-%202026-09-19%20-%20Emergence%20World%EF%BC%9A%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%A4%BE%E4%BC%9A%E6%A8%A1%E6%8B%9F%E4%B8%AD%E7%9A%84%E6%AC%BA%E9%AA%97%E4%B8%8E%E4%B8%B2%E9%80%9A%EF%BC%88Adversarial%20Stress-Testing%20of%20Long-Horizon%20Multi-Agent%20Systems%EF%BC%89.md)
-- 2026-09-12 · [PRISM: A Personality-Driven Multi-Agent Framework for Social Media Simulation](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/003%20-%202026-09-12%20-%20PRISM%EF%BC%9A%20A%20Personality-Driven%20Multi-Agent%20Framework%20for%20Social%20Media%20Simulation.md)
-- 2026-09-04 · [Population-Scalable Multi-Agent World Modeling（Khora）](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/004%20-%202026-09-04%20-%20Population-Scalable%20Multi-Agent%20World%20Modeling%EF%BC%88Khora%EF%BC%89.md)
-- 2026-09-02 · [Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/005%20-%202026-09-02%20-%20Harness-of-Harness%EF%BC%9A%20Multi-Day%20Autonomous%20Software%20Development%20with%20Continual%20Improvement.md)
+- 2026-09-29 · [StarDojo: Benchmarking Open-Ended Behaviors of Agentic Multimodal LLMs in Production–Living Simulations with Stardew Valley](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/001%20-%202026-09-29%20-%20StarDojo%EF%BC%9A%20Benchmarking%20Open-Ended%20Behaviors%20of%20Agentic%20Multimodal%20LLMs%20in%20Production%E2%80%93Living%20Simulations%20with%20Stardew%20Valley.md)
+- 2026-09-29 · [AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/002%20-%202026-09-29%20-%20AgentWorld%EF%BC%9A%20Benchmarking%20Long-Horizon%20Collaboration%20of%20Multi-agent%20LLMs.md)
+- 2026-09-25 · [Reward-Decomposed Reinforcement Learning for Immersive Video Role-Playing（EBM-RL）](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/003%20-%202026-09-25%20-%20Reward-Decomposed%20Reinforcement%20Learning%20for%20Immersive%20Video%20Role-Playing%EF%BC%88EBM-RL%EF%BC%89.md)
+- 2026-09-19 · [Emergence World：多智能体社会模拟中的欺骗与串通（Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems）](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/004%20-%202026-09-19%20-%20Emergence%20World%EF%BC%9A%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E7%A4%BE%E4%BC%9A%E6%A8%A1%E6%8B%9F%E4%B8%AD%E7%9A%84%E6%AC%BA%E9%AA%97%E4%B8%8E%E4%B8%B2%E9%80%9A%EF%BC%88Adversarial%20Stress-Testing%20of%20Long-Horizon%20Multi-Agent%20Systems%EF%BC%89.md)
+- 2026-09-12 · [PRISM: A Personality-Driven Multi-Agent Framework for Social Media Simulation](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/005%20-%202026-09-12%20-%20PRISM%EF%BC%9A%20A%20Personality-Driven%20Multi-Agent%20Framework%20for%20Social%20Media%20Simulation.md)
+- 2026-09-04 · [Population-Scalable Multi-Agent World Modeling（Khora）](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/006%20-%202026-09-04%20-%20Population-Scalable%20Multi-Agent%20World%20Modeling%EF%BC%88Khora%EF%BC%89.md)
+- 2026-09-02 · [Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement](002%20-%202026%E5%B9%B409%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/007%20-%202026-09-02%20-%20Harness-of-Harness%EF%BC%9A%20Multi-Day%20Autonomous%20Software%20Development%20with%20Continual%20Improvement.md)
 
 #### 记忆系统
 
