@@ -3,7 +3,7 @@
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
 - 最近同步：2026-10-10（bananalab 知识库 rev 65，全量 114 条）
-- 条目总数：115
+- 条目总数：116
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -55,6 +55,10 @@
 
 - 2026-10-10 · [Large Language Models and Games: A Survey and Roadmap](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-10-10%20-%20Large%20Language%20Models%20and%20Games%EF%BC%9A%20A%20Survey%20and%20Roadmap.md)
 - 2026-10-09 · [Proactive AI for Superintelligent Agents](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-10-09%20-%20Proactive%20AI%20for%20Superintelligent%20Agents.md)
+
+#### 实践项目
+
+- 2026-10-14 · [GPT6 结合 Blender 自制 3D 导演台](001%20-%202026%E5%B9%B410%E6%9C%88/%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE/001%20-%202026-10-14%20-%20GPT6%20%E7%BB%93%E5%90%88%20Blender%20%E8%87%AA%E5%88%B6%203D%20%E5%AF%BC%E6%BC%94%E5%8F%B0.md)
 
 ### 2026年9月
 
