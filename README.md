@@ -2,8 +2,8 @@
 
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
-- 最近同步：2026-10-19（云端 bananalab rev 120，全量 122 条）
-- 条目总数：122
+- 最近同步：2026-10-26（云端 bananalab rev 158，全量 134 条）
+- 条目总数：134
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -32,9 +32,9 @@
 | 2026年09月 | 记忆系统 | 1 |
 | 2026年09月 | 理论与标准研究 | 1 |
 | 2026年09月 | 实践项目 | 1 |
-| 2026年10月 | 世界模型 / 内容生成模型 | 3 |
-| 2026年10月 | 记忆系统 | 1 |
-| 2026年10月 | 理论与标准研究 | 2 |
+| 2026年10月 | 世界模型 / 内容生成模型 | 5 |
+| 2026年10月 | 记忆系统 | 6 |
+| 2026年10月 | 理论与标准研究 | 7 |
 | 2026年10月 | 实践项目 | 2 |
 
 ## 目录
@@ -228,18 +228,30 @@
 
 #### 世界模型 / 内容生成模型
 
-- 2026-10-13 · [AnimalLift： Lifting a Single Image into a 3D Animated Animal](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-10-13%20-%20AnimalLift%EF%BC%9A%20Lifting%20a%20Single%20Image%20into%20a%203D%20Animated%20Animal.md)
-- 2026-10-10 · [LongLive-Plug： Once-for-All Distillation for Video Generation](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-10-10%20-%20LongLive-Plug%EF%BC%9A%20Once-for-All%20Distillation%20for%20Video%20Generation.md)
-- 2026-10-10 · [Light Interaction： Training-Free Inference Acceleration for Interactive Video World Models](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/003%20-%202026-10-10%20-%20Light%20Interaction%EF%BC%9A%20Training-Free%20Inference%20Acceleration%20for%20Interactive%20Video%20World%20Models.md)
+- 2026-10-22 · [Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs（JCA）](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-10-22%20-%20Joints%2C%20Camera%2C%20Action%21%20Co-Generating%203D%20Motion%20and%20Video%20for%20Arbitrary%20Rigs%EF%BC%88JCA%EF%BC%89.md)
+- 2026-10-20 · [OmniXRef： A Unified Framework for Multimodal Multi-Reference Video Editing](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-10-20%20-%20OmniXRef%EF%BC%9A%20A%20Unified%20Framework%20for%20Multimodal%20Multi-Reference%20Video%20Editing.md)
+- 2026-10-13 · [AnimalLift： Lifting a Single Image into a 3D Animated Animal](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/003%20-%202026-10-13%20-%20AnimalLift%EF%BC%9A%20Lifting%20a%20Single%20Image%20into%20a%203D%20Animated%20Animal.md)
+- 2026-10-10 · [LongLive-Plug： Once-for-All Distillation for Video Generation](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/004%20-%202026-10-10%20-%20LongLive-Plug%EF%BC%9A%20Once-for-All%20Distillation%20for%20Video%20Generation.md)
+- 2026-10-10 · [Light Interaction： Training-Free Inference Acceleration for Interactive Video World Models](001%20-%202026%E5%B9%B410%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/005%20-%202026-10-10%20-%20Light%20Interaction%EF%BC%9A%20Training-Free%20Inference%20Acceleration%20for%20Interactive%20Video%20World%20Models.md)
 
 #### 记忆系统
 
-- 2026-10-09 · [Learning to Retrieve： Internalizing Memory Retrieval for Video World Models（L2R）](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/001%20-%202026-10-09%20-%20Learning%20to%20Retrieve%EF%BC%9A%20Internalizing%20Memory%20Retrieval%20for%20Video%20World%20Models%EF%BC%88L2R%EF%BC%89.md)
+- 2026-10-25 · [Mem-Gallery： Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/001%20-%202026-10-25%20-%20Mem-Gallery%EF%BC%9A%20Benchmarking%20Multimodal%20Long-Term%20Conversational%20Memory%20for%20MLLM%20Agents.md)
+- 2026-10-25 · [MMA： Multimodal Memory Agent](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/002%20-%202026-10-25%20-%20MMA%EF%BC%9A%20Multimodal%20Memory%20Agent.md)
+- 2026-10-25 · [GraphMemix： Query-Aware Evidence Forests for Long-Term Multimodal Agent Memory](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/003%20-%202026-10-25%20-%20GraphMemix%EF%BC%9A%20Query-Aware%20Evidence%20Forests%20for%20Long-Term%20Multimodal%20Agent%20Memory.md)
+- 2026-10-25 · [DG-Mem： Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/004%20-%202026-10-25%20-%20DG-Mem%EF%BC%9A%20Dual-Grained%20Agent%20Memory%20and%20Shapley%20Context%20Attribution%20for%20Multimodal%20Agentic%20Learner.md)
+- 2026-10-25 · [Cognitive-structured Multimodal Agent for Multimodal Understanding, Generation, and Editing](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/005%20-%202026-10-25%20-%20Cognitive-structured%20Multimodal%20Agent%20for%20Multimodal%20Understanding%2C%20Generation%2C%20and%20Editing.md)
+- 2026-10-09 · [Learning to Retrieve： Internalizing Memory Retrieval for Video World Models（L2R）](001%20-%202026%E5%B9%B410%E6%9C%88/%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F/006%20-%202026-10-09%20-%20Learning%20to%20Retrieve%EF%BC%9A%20Internalizing%20Memory%20Retrieval%20for%20Video%20World%20Models%EF%BC%88L2R%EF%BC%89.md)
 
 #### 理论与标准研究
 
-- 2026-10-10 · [Large Language Models and Games： A Survey and Roadmap](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-10-10%20-%20Large%20Language%20Models%20and%20Games%EF%BC%9A%20A%20Survey%20and%20Roadmap.md)
-- 2026-10-09 · [Proactive AI for Superintelligent Agents](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-10-09%20-%20Proactive%20AI%20for%20Superintelligent%20Agents.md)
+- 2026-10-25 · [WorldCast： Exploring Intelligent Visual Generation in World State Prediction](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-10-25%20-%20WorldCast%EF%BC%9A%20Exploring%20Intelligent%20Visual%20Generation%20in%20World%20State%20Prediction.md)
+- 2026-10-25 · [VeriPhy： Agentic Physical Reasoning for World Model Evaluation and Refinement](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/002%20-%202026-10-25%20-%20VeriPhy%EF%BC%9A%20Agentic%20Physical%20Reasoning%20for%20World%20Model%20Evaluation%20and%20Refinement.md)
+- 2026-10-25 · [Physis-Lang： Self-Evolving Language as a Physical Representation for Video World Model](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/003%20-%202026-10-25%20-%20Physis-Lang%EF%BC%9A%20Self-Evolving%20Language%20as%20a%20Physical%20Representation%20for%20Video%20World%20Model.md)
+- 2026-10-25 · [Code2Worlds-2： Physically Plausible Agent Harness for Embodied World Simulation](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/004%20-%202026-10-25%20-%20Code2Worlds-2%EF%BC%9A%20Physically%20Plausible%20Agent%20Harness%20for%20Embodied%20World%20Simulation.md)
+- 2026-10-25 · [Code Plans, Diffusion Renders： Open-Ended Generative World Modeling](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/005%20-%202026-10-25%20-%20Code%20Plans%2C%20Diffusion%20Renders%EF%BC%9A%20Open-Ended%20Generative%20World%20Modeling.md)
+- 2026-10-10 · [Large Language Models and Games： A Survey and Roadmap](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/006%20-%202026-10-10%20-%20Large%20Language%20Models%20and%20Games%EF%BC%9A%20A%20Survey%20and%20Roadmap.md)
+- 2026-10-09 · [Proactive AI for Superintelligent Agents](001%20-%202026%E5%B9%B410%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/007%20-%202026-10-09%20-%20Proactive%20AI%20for%20Superintelligent%20Agents.md)
 
 #### 实践项目
 
