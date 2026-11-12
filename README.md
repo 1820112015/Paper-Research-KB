@@ -2,8 +2,8 @@
 
 按收录月份与研究分类整理的论文及项目知识库。每项研究对应一个独立 Markdown 文档；PDF 仅保留公开链接，本仓库不存放 PDF 文件。
 
-- 最近同步：2026-11-03（云端 bananalab rev 209，全量 151 条）
-- 条目总数：151
+- 最近同步：2026-11-12（云端 bananalab rev 223，全量 153 条）
+- 条目总数：153
 - 目录结构：`月份倒序编号 - 月份 / 分类 / 倒序编号 - 收录日期 - 研究名称.md`
 - 排序规则：月份及分类内条目均以 `001` 表示最新内容，确保 GitHub 文件列表中最新内容显示在最上方
 
@@ -37,8 +37,9 @@
 | 2026年10月 | 记忆系统 | 7 |
 | 2026年10月 | 理论与标准研究 | 14 |
 | 2026年10月 | 实践项目 | 4 |
-| 2026年11月 | 世界模型 / 内容生成模型 | 1 |
+| 2026年11月 | 世界模型 / 内容生成模型 | 2 |
 | 2026年11月 | 多智能体+LLM | 1 |
+| 2026年11月 | 理论与标准研究 | 1 |
 
 ## 目录
 
@@ -283,8 +284,13 @@
 
 #### 世界模型 / 内容生成模型
 
-- 2026-11-02 · [MotionBricks（SIGGRAPH 2026）](001%20-%202026%E5%B9%B411%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-11-02%20-%20MotionBricks%EF%BC%88SIGGRAPH%202026%EF%BC%89.md)
+- 2026-11-12 · [JCA 第二篇解读：生成视频，也交出 3D 动作](001%20-%202026%E5%B9%B411%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/001%20-%202026-11-12%20-%20JCA%20%E7%AC%AC%E4%BA%8C%E7%AF%87%E8%A7%A3%E8%AF%BB%EF%BC%9A%E7%94%9F%E6%88%90%E8%A7%86%E9%A2%91%EF%BC%8C%E4%B9%9F%E4%BA%A4%E5%87%BA%203D%20%E5%8A%A8%E4%BD%9C.md)
+- 2026-11-02 · [MotionBricks（SIGGRAPH 2026）](001%20-%202026%E5%B9%B411%E6%9C%88/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%20%EF%BC%8F%20%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/002%20-%202026-11-02%20-%20MotionBricks%EF%BC%88SIGGRAPH%202026%EF%BC%89.md)
 
 #### 多智能体+LLM
 
 - 2026-11-02 · [GameScaling： An Open Family of General Game Models (0.8B–27B)](001%20-%202026%E5%B9%B411%E6%9C%88/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%2BLLM/001%20-%202026-11-02%20-%20GameScaling%EF%BC%9A%20An%20Open%20Family%20of%20General%20Game%20Models%20%280.8B%E2%80%9327B%29.md)
+
+#### 理论与标准研究
+
+- 2026-11-10 · [Towards Generalist Game Agents： A Survey of Foundation Models in Virtual Worlds](001%20-%202026%E5%B9%B411%E6%9C%88/%E7%90%86%E8%AE%BA%E4%B8%8E%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6/001%20-%202026-11-10%20-%20Towards%20Generalist%20Game%20Agents%EF%BC%9A%20A%20Survey%20of%20Foundation%20Models%20in%20Virtual%20Worlds.md)
